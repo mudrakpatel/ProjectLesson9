@@ -1,32 +1,4 @@
-﻿body {
-    padding-top: 50px;
-    padding-bottom: 20px;
-}
-
-/* Set padding to keep content from hitting the edges */
-.body-content {
-    padding-left: 15px;
-    padding-right: 15px;
-}
-
-/* Override the default bootstrap behavior where horizontal description lists 
-   will truncate terms that are too long to fit in the left column 
-*/
-.dl-horizontal dt {
-    white-space: normal;
-}
-
-/* Set width on the form input elements since they're 100% wide by default */
-input,
-select,
-textarea {
-    max-width: 280px;
-}
-
-
-
-/*----------------------------------------------------------------------------------------------*/
-*
+﻿*
 {
 	margin: 0px;
 	padding: 0px;
@@ -39,7 +11,7 @@ body
 	font-size: 14px;
 	background-color: #FBF9EF;
 	padding: 0px 6%;
-    margin-top:60px;
+    margin-top: 50px;
 }
 
 #container
@@ -57,17 +29,16 @@ body
 
 #header h1
 {
-	font-size: 18px;
-	float: left;
-	background: url(/content/Images/logo.png) no-repeat;
-	padding: 45px 0px 5px 0px;
+
+	background: url(/Assets/images/logo.png) no-repeat;
+
 }
 
 #promotion
 {
 	height: 300px; 
 	width: 700px; 
-	background: url(/content/Images/home-showcase.png) no-repeat;
+	background: url(/Assets/images/home-showcase.png) no-repeat;
 }
 
 ul li a

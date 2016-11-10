@@ -17,21 +17,22 @@ namespace ProjectLesson9.Controllers
         // GET: Store
         public ActionResult Index()
         {
+            /*
             List<Genre> genres = new List<Genre>
             {
                 new Genre("Disco"),
                 new Genre("Jazz"),
                 new Genre("Rock"),
                 new Genre("Electronic")
-            };
+            }; */
 
-            return View(genres);
+            return View(db.Genres.ToList());
         }
 
         // GET: Store/Browse?genre=Disco
         public ActionResult Browse(string genre)
         {
-            if (genre == String.Empty)
+            if (genre == null)
             {
                 genre = "Disco";
             }
